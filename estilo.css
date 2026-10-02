@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    padding: 25px 3%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #555;
+}
+.logo {
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 4px 4px 10px gray;
+}
+.cabecera h1 {
+    color: #2196c9;
+    font-size: 38px;
+    padding: 14px 30px;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 9px;
+    box-shadow: 4px 4px 10px gray;
+    text-shadow: 3px 3px 4px gray;
+    margin-right: 15px;
+}
+main {
+    width: 100%;
+}
+section {
+    width: 100%;
+    margin-bottom: 38px;
+}
+h2 {
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 16px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.PADRE1 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    width: 100%;
+    padding: 20px;
+    border: 4px solid #555;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.PADRE1 > div {
+    width: 330px;
+    min-height: 430px;
+    padding: 18px;
+    border: 2px solid #777;
+    background-color: rgba(255, 255, 255, 0.92);
+    text-align: center;
+    box-shadow: none
+}
+.PADRE1 .hijo1 {
+    background-color: #fff1eb;
+}
+.PADRE1 .hijo2 {
+    background-color: #eaf6ff;
+}
+.PADRE1 .hijo3 {
+    background-color: #effbea;
+}
+.PADRE1 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 12px 10px;
+    color: white;
+}
+.PADRE1 .hijo1 h3 {
+    background-color: #e34c26;
+}
+.PADRE1 .hijo2 h3 {
+    background-color: #1572b6;
+}
+.PADRE1 .hijo3 h3 {
+    background-color: #4CAF50;
+}
+.PADRE1 p {
+    
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.PADRE1 img {
+    width: 105px;
+    height: auto;
+    display: block;
+    margin: 28px auto 0;
+    object-fit: contain;
+}
+.PADRE2 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    width: 100%;
+    padding: 25px;
+    border: 4px solid #555;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.PADRE2 > div {
+    width: 330px;
+    height: 360px;
+    border: 2px solid #777;
+    background-color: rgba(255, 255, 255, 0.92);
+    overflow: hidden;
+    box-shadow: none
+}
+.PADRE2 h3 i {
+    font-size: 25px;
+    transform: translateY(6px);
+}
+.PADRE2 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    flex-direction: row-reverse;
+}
+.PADRE2 h3 .icono {
+    width: 37.5px;
+    height: 38px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    flex-shrink: 0;
+}
+.PADRE2 .html h3 {
+    background-color: #e34c26;
+}
+.PADRE2 .Css h3 {
+    background-color: #1572b6;
+}
+.PADRE2 .JavaScript h3 {
+    background-color: #4CAF50;
+}
+.PADRE2 p {
+    padding: 0 18px 20px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.casa {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    box-shadow: 6px 6px 12px gray;
+}
+.linea {
+    border: 0;
+    border-top: 4px solid #555;
+    margin: 28px 0;
+}
+section:last-child p {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+    border: 2px solid #777;
+    border-radius: 7px;
+    box-shadow: 4px 4px 10px gray;
+}
